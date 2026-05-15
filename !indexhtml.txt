@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Device Assistance</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0a84ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    .hero {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #0a84ff;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .call-btn {
+      display: inline-block;
+      background: #0a84ff;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .services {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #0a84ff;
+      margin-bottom: 10px;
+    }
+
+    .about, .contact, .policy {
+      margin-top: 50px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      margin-top: 50px;
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .disclaimer {
+      font-size: 14px;
+      margin-top: 15px;
+      opacity: 0.9;
+    }
+
+    @media(max-width:768px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      .hero h2 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Smart Device Assistance</h1>
+  <p>Independent Setup Guidance & Wifi Connection Help</p>
+</header>
+
+<div class="container">
+
+  <section class="hero">
+    <h2>Need Help Setting Up Your Device?</h2>
+    <p>
+      We provide independent informational assistance for smart home devices,
+      wifi connection guidance, and setup troubleshooting.
+    </p>
+
+    <a class="call-btn" href="tel:+18884989259">Call Support (888) 498-9259</a>
+
+    <p class="disclaimer">
+      This website is an independent third-party informational service and is not affiliated with or endorsed by Ring, Amazon, or any manufacturer.
+    </p>
+  </section>
+
+  <section class="services">
+
+    <div class="card">
+      <h3>Wifi Connection Help</h3>
+      <p>
+        Guidance for connecting devices to home wifi networks and troubleshooting connection issues.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Smart Device Setup</h3>
+      <p>
+        Independent assistance for setup and configuration of smart home devices.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Troubleshooting Guidance</h3>
+      <p>
+        Help resolving common device setup and connectivity problems.
+      </p>
+    </div>
+
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      Smart Device Assistance provides independent informational guidance for users needing help with smart device setup and wifi connectivity.
+    </p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Phone:</strong> (888) 498-9259</p>
+    <p><strong>Email:</strong> support@example.com</p>
+  </section>
+
+  <section class="policy">
+    <h2>Privacy Policy</h2>
+    <p>
+      We respect user privacy and do not sell personal information. Information submitted through this website may be used for customer assistance purposes only.
+    </p>
+
+    <br>
+
+    <h2>Terms & Conditions</h2>
+    <p>
+      By using this website, users acknowledge that this is an independent informational service website and not an official manufacturer support platform.
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Smart Device Assistance. All Rights Reserved.</p>
+
+  <p class="disclaimer">
+    Independent third-party informational service. Not affiliated with Ring, Amazon, or any manufacturer.
+  </p>
+</footer>
+
+</body>
+</html>
